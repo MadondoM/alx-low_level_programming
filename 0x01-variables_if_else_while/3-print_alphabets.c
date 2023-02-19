@@ -3,11 +3,11 @@
 /**
  * main - program that prints alphabets in lowercase then uppercase
  *
- * Return 0 (success)
+ * Return: 0 (success)
  */
 int main(void)
 {
-	int ch;
+int ch;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
