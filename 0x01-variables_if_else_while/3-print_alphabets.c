@@ -7,15 +7,18 @@
  */
 int main(void)
 {
-	int ch;
+	int n = 97;
+	int m = 65;
 
-	for (ch = 'a', ch <= 'z', ch++)
+	while (n <= 122)
 	{
-		putchar(ch);
+		putchar(n);
+		n++;
 	}
-	for (ch = 'A', ch <= 'Z', ch++)
+	while (m <= 90)
 	{
-		putchar(ch);
+		putchar(n);
+		m++;
 	}
 	putchar('\n');
 	return (0);
