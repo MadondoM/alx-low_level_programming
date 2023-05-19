@@ -8,10 +8,13 @@
  */
 int main(void)
 {
-	for (char c = 'a'; c <= 'z'; c++)
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	int m;
+
+	for (m = 0; m < 26; m++)
 	{
-		putchar (c);
+		putchar(alp[m]);
 	}
-	putchar ('\n');
+	putchar('\n');
 	return (0);
 }
